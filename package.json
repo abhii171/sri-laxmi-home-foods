@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "npm --prefix sri-laxmi-home-foods run dev",
-    "start": "npm --prefix sri-laxmi-home-foods run dev",
-    "build": "npm --prefix sri-laxmi-home-foods run build",
-    "preview": "npm --prefix sri-laxmi-home-foods run preview"
+    "dev": "cmd /c npm --prefix sri-laxmi-home-foods run dev -- --host 0.0.0.0",
+    "start": "cmd /c npm --prefix sri-laxmi-home-foods run dev -- --host 0.0.0.0",
+    "build": "cmd /c npm --prefix sri-laxmi-home-foods run build",
+    "preview": "cmd /c npm --prefix sri-laxmi-home-foods run preview -- --host 0.0.0.0"
   }
 }
 
