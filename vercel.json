@@ -1,4 +1,5 @@
 {
+  "outputDirectory": "sri-laxmi-home-foods/dist",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]

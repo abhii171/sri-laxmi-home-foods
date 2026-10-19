@@ -2,10 +2,17 @@
   "name": "laxmi-home-foods-workspace",
   "version": "1.0.0",
   "private": true,
+  "workspaces": [
+    "sri-laxmi-home-foods"
+  ],
   "scripts": {
     "dev": "npm --prefix sri-laxmi-home-foods run dev",
-    "start": "npm --prefix sri-laxmi-home-foods run dev",
+    "start": "npm --prefix sri-laxmi-home-foods run start",
     "build": "npm --prefix sri-laxmi-home-foods run build",
     "preview": "npm --prefix sri-laxmi-home-foods run preview"
+  },
+  "dependencies": {
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5"
   }
 }
