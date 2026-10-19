@@ -1,42 +1,11 @@
 {
-<<<<<<< HEAD
   "name": "laxmi-home-foods-workspace",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "cmd /c npm --prefix sri-laxmi-home-foods run dev -- --host 0.0.0.0",
-    "start": "cmd /c npm --prefix sri-laxmi-home-foods run dev -- --host 0.0.0.0",
-    "build": "cmd /c npm --prefix sri-laxmi-home-foods run build",
-    "preview": "cmd /c npm --prefix sri-laxmi-home-foods run preview -- --host 0.0.0.0"
+    "dev": "npm --prefix sri-laxmi-home-foods run dev",
+    "start": "npm --prefix sri-laxmi-home-foods run dev",
+    "build": "npm --prefix sri-laxmi-home-foods run build",
+    "preview": "npm --prefix sri-laxmi-home-foods run preview"
   }
 }
-
-=======
-  "name": "sri-laxmi-home-foods",
-  "private": true,
-  "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "preview": "vite preview --host 0.0.0.0"
-  },
-  "dependencies": {
-    "lucide-react": "^0.469.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.28.0"
-  },
-  "devDependencies": {
-    "@types/node": "^22.10.2",
-    "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1",
-    "@vitejs/plugin-react": "^4.3.4",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.16",
-    "typescript": "^5.7.2",
-    "vite": "^6.0.5"
-  }
-}
->>>>>>> 81c2de4f7e73eb855eee7ceb1ad6f91e4e06528d
